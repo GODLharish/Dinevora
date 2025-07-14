@@ -15,7 +15,6 @@ const HeroSection = () => {
           loop
           playsInline
           preload="auto"
-         
         ></video>
       </div>
 
@@ -24,13 +23,7 @@ const HeroSection = () => {
 
       {/* Hero Content */}
       <div className="relative z-20 flex h-screen flex-col items-center justify-end pb-20">
-        <motion.img
-        initial={{opacity: 0, y: 50}} 
-        animate={{opacity: 1, y: 0}}
-        transition={{duration:0.5}}
-        
-        src={logo} alt="dinevora" className="w-full max-w-[90rem]  p-4" />
-        <p className="p-4 text-lg tracking-tighter text-white uppercase">Canada</p>
+        <p className="p-4 text-lg tracking-tighter text-white uppercase">Take it Cheesy</p>
       </div>
     </section>
   );

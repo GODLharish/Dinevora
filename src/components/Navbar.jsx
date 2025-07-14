@@ -42,7 +42,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-4 z-50 flex w-full flex-col items-center justify-center">
       <div className="flex w-full items-center justify-between overflow-y-hidden p-4 backdrop-blur-lg lg:m-2 lg:w-[50rem] lg:rounded-full lg:shadow-lg">
-        <img src={logo} alt="logo" width={80} height={22} />
+        <span className="text-2xl font-bold tracking-tight text-white">Take it Cheesy</span>
 
         {/* Desktop Links */}
         <div className="hidden space-x-6 lg:flex">
